@@ -196,7 +196,7 @@ const CircleDesign: React.FC = () => {
 
   return (
     <div
-      className="bg-[#0E0E2C] flex flex-col rounded-xl items-center justify-center w-full z-50 m-2"
+      className="bg-[#0E0E2C] flex flex-col rounded-xl items-center justify-center w-full z-50 m-2 p-10"
       style={{
         boxShadow: `
           0 4px 20px rgba(0, 0, 0, 0.3),
@@ -205,7 +205,7 @@ const CircleDesign: React.FC = () => {
       }}
     >
       <div
-        className="bg-[#15153B] rounded-xl flex items-center justify-center p-2 sm:p-8 w-full z-50"
+        className="bg-[#15153B] rounded-xl flex items-center justify-center p-2 sm:p-8 w-full z-50 p-10"
         style={{
           boxShadow: `
             inset 0 1px 1px rgba(255, 255, 255, 0.05),
