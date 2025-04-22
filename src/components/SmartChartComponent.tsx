@@ -161,6 +161,7 @@ const SmartChartComponent: React.FC = () => {
         requestAPI={requestAPI}
         requestSubscribe={requestSubscribe}
         requestForget={requestForget}
+        showLastDigitStats={true}
         isLive
         topWidgets={() => (
           <div style={{ display: 'flex', alignItems: 'left', width: '500px', height: '25px', marginTop: '50px' }}>
